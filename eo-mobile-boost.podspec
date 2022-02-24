@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "eo-mobile-boost"
-  spec.version      = "1.76.0"
+  spec.version      = "1.76.0.1"
   spec.summary      = "eo-mobile-boost"
   spec.description  = "Boost 1.76.0 packed into .xcframework for using into ios/mac projects via #import/#include <boost/any_header.h>"
   spec.homepage     = "https://www.ibitcy.com"
@@ -26,6 +26,6 @@ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.' }
   spec.author       = { "author" => "stepan.kopylov@ibitcy.com" }
   spec.platform     = :ios, "9.3"
-  spec.source       = { :http => "https://github.com/ibitcy/eo-mobile-boost/raw/main/ios/product/boost_1.76.0.zip", :type => "zip" }
+  spec.source       = { :http => "https://mlibs.fra1.digitaloceanspaces.com/boost_1.76.0.zip", :type => "zip" }
   spec.ios.vendored_frameworks = 'boost.xcframework'
 end
